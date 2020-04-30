@@ -1,0 +1,309 @@
+body{
+    margin:0;
+    padding:0;
+    background:url("../image/sea.jpg");
+    background-size:cover;
+    overflow: hidden;
+}
+.top{
+  top: 1px;
+  position: absolute;
+  left: 70%; 
+}
+ul{
+list-style: none;
+float: right;
+margin-top: px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+ul li a:hover{
+background-color:rgb(14, 183, 240);
+color: black;
+}
+ul li.active a{
+background-color:deepskyblue;
+color: black; 
+}
+.nav{
+   position: relative;
+   border: 2px solid skyblue;
+   border-style: none;
+   height: 34px;
+   width:100%;
+   background-color: rgb(8, 163, 224);
+   box-shadow: 1px 2px 4px rgb(117, 154, 168); 
+}
+.ico{
+   height: 2px;
+   right:50%;
+   margin-top: 10px;
+   position: relative;
+   text-transform: capitalize;
+   list-style: none;
+}
+.ico li{
+   display: inline-block;
+}
+.ico li a{
+   text-decoration: none;
+   color: #fff;
+   padding: 5px 20px;
+   border: 1px solid transparent;
+   transition: 0.6s ease;
+}
+.ico li a:hover{
+   background-color:transparent;
+   color: black;
+   cursor: pointer;
+}
+.uper{
+   position: absolute;
+   top:4%;
+   margin-left:5% ;
+   margin-top: 4px;
+   transform: translate(-50%,-50%);
+   width: 100px;
+}
+.heading{
+  font-size: 40px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#ff5722;
+  text-shadow: 0px 1px 1px whitesmoke;
+ }
+ .title{
+     top: 10px;
+     position: relative;
+     text-align: center;
+ }
+ h3{
+     text-transform: capitalize;
+     color:#efefef;
+     font-size: 40px;
+     height: 25px;
+ }
+.child{
+   color: rgba(52,74,94,0.75);
+}
+.walpper{
+   position: absolute;
+   padding: 40px 50px;
+   max-width: 940px;
+   text-align: center;
+   margin: 1px auto;
+}
+.parent{
+   width: 300px;
+   margin: 10px;
+   height: 130px;
+   border: 3px solid gray;
+   box-shadow: 1px 2px 2px black;
+   overflow: hidden;
+   position:relative;
+   float:left;
+   cursor:pointer;
+}
+.child{
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   transition: all .5s;
+}
+.login-box{
+   position: absolute;
+   margin: 5% auto;
+   height: 300px;
+   width: 500px;
+   left: 80%;
+   background: #fff;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+}
+.left-box{
+   position: absolute;
+   top: 0;
+   left: 0;
+   box-sizing: border-box;
+   padding: 20px;
+   width: 300px;
+   height: 400px;
+}
+h1{
+   margin: 0 95px 20px 0;
+   font-weight: 300;
+   font-size: 29px;
+   left: 5px;
+}
+input[type="text"],
+input[type="password"]
+{
+   display: block;
+   box-sizing: border-box;
+   margin-bottom: 20px;
+   padding: 4px;
+   width: 200px;
+   height: 32px;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #aaa;
+   font-family: sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   transition: 0.6s ease;
+}
+input[type="submit"]
+{
+   margin-bottom: 20px;
+   width: 120px;
+   height: 32px;
+   margin: 0 100px 20px 0;
+   background: #f44336;
+   border: none;
+   border-radius: 4px;
+   color: #fff;
+   font-family: sans-serif;
+   font-weight: 400;
+   text-transform: uppercase;
+   transition: 0.2s ease;
+   cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+   background: #ff5722;
+   transition: 0.2s ease;
+}
+.right-box{
+   position: absolute;
+   top: 0;
+   right: 0;
+   box-sizing: border-box;
+   padding: 40px;
+   width: 250px;
+   height: 300px;
+   background-image: url(../image/bg.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.or{
+   position: absolute;
+   top:150px;
+   left:230px;
+   width: 40px;
+   height: 40px;
+   background: #efefef;
+   border-radius: 50%;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+   line-height: 40px;
+   text-align: center;
+}
+.right-box .signupwith{
+   display:block;
+   margin-bottom: 20px;
+   font-size: 28px;
+   color: #fff;
+   text-align: center;
+   text-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+button.social{
+   margin-bottom: 20px;
+   width: 180px;
+   height: 36px;
+   border:none;
+   border-radius: 3px;
+   color: #fff;
+   font-family: sans-serif;
+   font-weight: 500;
+   transition: 0.2s ease;
+   cursor: pointer;
+}
+.facebook{
+   background-color: #32508e;
+}
+.google{
+   background-color: #ff5722;
+}
+.twitter{
+   background-color: #00bfff;
+}
+   
+.big-one{
+   background-image: url(../image/london.jpg);
+}
+.big-two{
+   background-image: url(../image/newyork.jpg);
+}
+.big-three{
+   background-image: url(../image/timesqaure.jpg);
+}
+.big-four{
+   background-image: url(../image/losangeles.jpg);
+}
+.big-five{
+   background-image: url(../image/uk2.jpg);
+}
+.big-six{
+  background-image: url(../image/broclyn.jpg);
+}
+span{
+   display: none;
+   font-size: 20px;
+   color: #efefef;
+   font-family:sans-serif;
+   text-align:center;
+   text-transform: capitalize;
+   margin:auto;
+   position:absolute;
+   top:20px;
+   left:0;
+   bottom:0;
+   right:0;
+   height:50px;
+   cursor:pointer;
+}
+.parent:hover .child, .parent:focus .child{
+    transform:scale(2,2);
+}
+.parent:hover .child:before, .parent:focus .child:before{
+    display:block;
+}
+.parent:hover span, .parent:focus span{
+    display:block;
+}
+.child:before{
+    content:"";
+    display:none;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgba(52,74,94,0.75);
+}
+.botton{
+  position: absolute;
+  top: 97%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+  }
+.bot{
+  border: 1px solid skyblue;
+  padding: 5px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+  margin-right: 10px;
+  border-radius: 5px;
+ }
+.bot:hover{
+ background-color:rgb(14, 183, 240);
+ color: #000;
+}
