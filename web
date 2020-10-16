@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+  <nav class="navbar sticky-top navbar-expand- sm navbar-dark bg-success">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuItems" >
+        <span class="navbar-toggler-icon"><a href="#"></span>
+    </button>
+    <img src="./image/holiday.png" class="img-responsive" style="width: 50px;margin-right:1160px; padding:1px;"></a>
+    <div class="collapse navbar-collapse" id="menuItems">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><u>MENU</u></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PLANS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LOGIN</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ol>
+     <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./image/picnic1.jpg" data-inerval="2000" class="d-block w-100">
+    </div class="carousel-item">
+    <div class="carousel-item">
+        <img src="./image/picnic2.jpg" data-inerval="2000" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+        <img src="./image/picnic3.jpg" data-inerval="2000" class="d-block w-100">
+    </div>
+    </div>
+    <a href="#demo" class="carousel-control-prev" role="button" data-slide="prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#demo" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+     </a>
+</div><br>
+<div class="container">
+<div class="card-deck">
+    <div class="card">
+      <img src="./image/card1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gopalpur Beach</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./image/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Losangel</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./image/sea.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mauritius</h5>
+        <p class="card-text"></p>
+
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
